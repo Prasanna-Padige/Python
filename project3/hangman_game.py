@@ -1,7 +1,7 @@
 import random
 import hangman_stages
 import word_file
-lives=6
+lives=5
 chosen_word=random.choice(word_file.words)
 
 display=[]
