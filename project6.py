@@ -24,7 +24,7 @@ def calculator():
         calculator_function=operations_dict[op_symbol]
         output=calculator_function(number1,number2)
         print(f"{number1} {op_symbol} {number2} = {output}")
-        should_continue=input(f"Enter 'y' to continue with {output} or 'n' to satrt a new calculation or 'x' to exit")
+        should_continue=input(f"Enter 'y' to continue with {output} or 'n' to satrt a new calculation or 'x' to exit:")
         if should_continue=='y':
             number1=output
         elif should_continue=='n':
